@@ -1,0 +1,14 @@
+(1)ts-jest[config] (WARN) message TS151001: 
+If you have issues related to imports, you should consider setting `esModuleInterop` to `true` 
+in your TypeScript configuration file (usually `tsconfig.json`).
+
+{
+  "compilerOptions": {
+    "esModuleInterop": true
+  }
+}
+
+(2)'ts-node' is not recognized as an internal or external command,
+operable program or batch file.
+
+npm install -g ts-node
